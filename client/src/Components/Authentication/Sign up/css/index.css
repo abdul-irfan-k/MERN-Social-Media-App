@@ -1,0 +1,14 @@
+.signInImgBOx {
+    aspect-ratio: 1 / 1;
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.signInInputImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

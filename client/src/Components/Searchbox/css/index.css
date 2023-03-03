@@ -1,0 +1,131 @@
+.search-container {
+    width: 76%;
+    height: 80%;
+    min-height: 85vh;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 22px 3px rgba(0, 0, 0, 0.14);
+    display: flex;
+    flex-direction: column;
+}
+
+.searchbox {
+    width: 75%;
+    height: 40px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 85% 10%;
+    gap: 3%;
+}
+
+
+
+.searchbox__input {
+    border: none;
+    /* outline: none; */
+    width: 96%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 0 2%;
+    font-size: 20px;
+
+}
+
+.searchbox__input:focus {
+    outline: 0;
+}
+
+.searchbox__button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A56A6A;
+    color: white;
+    aspect-ratio: 10/1;
+    border-radius: 10px;
+}
+
+.selectbox {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.30);
+}
+
+.selectbox__user-selected {
+    color: rgba(0, 0, 0, 0.89);
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.30);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 0 10px 0;
+}
+
+.line-active {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.89);
+}
+
+.userlistbox {
+    width: 100%;
+    min-height: 200px;
+    padding-bottom: 100px;
+}
+
+.userlistbox__box {
+    width: 40%;
+    height: 100px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 40px auto 20px auto;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.18);
+    border-radius: 18px;
+}
+
+.userlistbox__box-image {
+    height: 80%;
+    aspect-ratio: 1/1;
+    margin: auto 0;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.userlistbox__box-content {
+    display: grid;
+    height: 70%;
+    margin: auto 0;
+    grid-template-rows: 60% 30%;
+}
+
+.userlistbox__box-content span {
+    margin: auto 0 auto 10px;
+}
+
+.userlistbox__box-content-name {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.userlistbox__box-content-email {
+    font-size: 17px;
+    font-weight: 200;
+}
+
+
+.postresult-container {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}

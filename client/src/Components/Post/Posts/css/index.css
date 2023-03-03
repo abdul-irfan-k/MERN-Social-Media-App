@@ -1,0 +1,123 @@
+.postPageContainer {
+    margin-top: 80px;
+ height: 100vh; 
+ margin: 0 auto;
+ width: 75%;
+}
+
+ .postBox {
+    background-color: #FFFFFF;
+    width: 35%;
+    height: 500px;
+    margin: 100px auto;
+    
+    box-shadow: 2px 3px 14px 1px rgba(0, 0, 0, 0.25);
+}
+
+.postBox .nameAndImageBox {
+    width: 95%;
+    margin: 0 auto;
+    height: 55%;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+ .nameAndImageBox .postUserDetail {
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 45px 150px;
+    gap: 10px;
+
+ }
+
+
+ .postUserDetail .postUserImage {
+    width: 100%;
+    height: 45px;
+    border-radius: 50%;
+ }
+
+ .postUserDetail span {
+        font-size: 20px;
+ }
+
+ .nameAndImageBox div .postImage {
+width: 100%;
+height: 100%;
+border-radius: 10px;
+ }
+
+
+ .postBox .postDetailContainer {
+    height: 45%;
+    display: grid;
+    grid-template-rows: 60% 30%; 
+    gap: 10%; 
+    width: 95%;
+    margin: auto;
+}
+
+
+.postDetailBox .postIconContainer {
+    margin-top: 5px;
+    height: 40%;
+    display: flex;
+}
+
+.postIconContainer div {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+    /* background-color: red; */
+}
+.fontIcon {
+    height: 1.4em;
+}
+.leftIconBox {
+    margin-right: 10px;
+}
+.rightIconBox {
+   margin-left: auto;
+}
+
+.postContent {
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.postContent .hashtag{
+    color: #1D0AFF;
+    font-size: 16px;
+}
+.postContent .title {
+    font-size: 20px;
+    color: #000000;
+}
+.postContent .content {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+ .flex-x-y {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+ }
+
+.addCommentBtn{
+    width: 100%;
+    height: 40px;
+    background-color:#FFFFFF;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+ }

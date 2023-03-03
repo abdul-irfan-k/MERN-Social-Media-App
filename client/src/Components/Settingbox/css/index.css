@@ -1,0 +1,76 @@
+.setting-button {
+    width: 86%;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    height: 25px;
+}
+
+.settingBox img {
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
+.settingbox {
+    background-color: #FFFFFF;
+    height: 70vh;
+    width: 25%;
+    min-width: 300px;
+    position: fixed;
+    display: grid;
+    grid-template-rows: 5% 17% 77%;
+    box-shadow: 3px 6px 8px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* overflow: hidden; */
+}
+
+
+.settingbox__closebtn {
+    width: 100%;
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+}
+.settingbox__closebtn-button{
+    height: 100%;
+    aspect-ratio: 1/1;
+    margin-left: auto;
+    margin: 10px 10px 0 0 ;
+}
+.settingbox__closebtn-button-icon {
+height: 100%;
+}
+
+.settingbox__header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.settingbox__buttonbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.settingbox__buttonbox-button {
+    height: 14%;
+    /* background-color: blue; */
+    width: 50%;
+    margin: 4% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.14);
+    border-radius: 5px;
+}
+.settingbox__buttonbox-button-icon {
+    margin-right: 5px;
+}
+

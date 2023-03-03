@@ -1,0 +1,97 @@
+.addPostBox {
+    background-color: #FFFFFF;
+    width: 410px;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 2px 3px 14px 1px rgba(0, 0, 0, 0.25);
+}
+
+.imgBox {
+    width: 95%;
+    margin: 10px auto 0 auto;
+    background-color: #ffffff;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.editpage-iamgebox {
+    width: 95%;
+    margin: 10px auto 0 auto;
+    background-color: #ffffff;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fileInput {
+    width: 250px;
+    padding: 10px;
+}
+
+.editpage-inputbox {
+    width: 70%;
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: 40% 55%;
+}
+.editpage-input {
+    width: 100%;
+}
+
+.inputImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;;
+}
+
+.editpage-inputImage {
+    width: 100%;
+    height: 85%;
+    background-color: red;
+}
+
+.formBox {
+    width: 95%;
+    height: 43%;
+    margin: 20px auto 0 auto;
+}
+
+.formList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 75%;
+    height: 30%;
+    gap: 5%;
+}
+
+.formLabel {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.formInput {
+    height: 50%;
+    font-size: 20px;
+}
+
+.submitDiv {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+.postSubmitBtn {
+    padding: 5px 10px;
+    margin: 0 auto 0 auto;
+    background-color: #A56A6A;
+    color: white;
+}

@@ -1,0 +1,60 @@
+.errorpage-box {
+    width: 65%;
+    height: 55vh;
+    margin: 120px auto ;
+    background-color: red;
+    background-color: #FFFFFF;
+box-shadow: 2px 3px 13px 3px rgba(0,0,0,0.17);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.errorpage-box__header {
+    font-size: 6em;
+    /* margin-top: 30px; */
+}
+
+.errorpage-box__header-blue {
+    color: #5AA4DB;
+}
+
+.errorpage-box__textheader {
+    font-size: 30px;
+    /* margin-top: 15px; */
+}
+
+.errorpage-box__content {
+    font-size: 20px;
+    margin: 30px auto 0 auto ;
+    width: 70%;
+}
+
+.errorpage-box__buttonbox {
+    width: 60%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin: 30px auto 0 auto ;
+}
+
+.errorpage-box__buttonbox-button {
+    height: 100%;
+    /* width: 110px; */
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.bg-blue {
+    background-color: #5AA4DB;
+    color: #FFFFFF;
+}
+
+.b-blue {
+    border: 3px solid #5AA4DB;
+}

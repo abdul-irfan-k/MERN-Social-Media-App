@@ -1,0 +1,15 @@
+
+// jwt access token secret 
+JWT_ACESS_TOKEN_SECRET
+
+// jwt refresh token secret
+JWT_REFRESH_TOKEN_SECRET
+
+//  email
+EMAIL
+
+// email password 
+EMAIL_PASSWORD
+
+// mongodb cluseter id and password 
+MONGODB_URL
