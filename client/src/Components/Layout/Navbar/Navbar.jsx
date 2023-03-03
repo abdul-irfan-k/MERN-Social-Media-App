@@ -55,7 +55,7 @@ const NavbarComponent = () => {
 
           </div>
           <div className="profileBox">
-            <img src={`/userimage/${user?.userDetails?._id}.jpg`} alt="userimage" onError={(e) => { e.target.src = "/userimage/default.jpg" }} />
+            <img src={`/userimage/${user?.userDetails?._id}.jpg`} alt="userimage" onError={(e) => { e.target.src = "/appimage/default.jpg" }} />
           </div>
         </div>
       </div>

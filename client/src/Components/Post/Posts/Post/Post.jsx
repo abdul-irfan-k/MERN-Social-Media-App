@@ -26,7 +26,7 @@ function Post(props) {
         <div className="postBox">
             <div className="nameAndImageBox">
                 <div className="postUserDetail">
-                    <img src={`userimage/${creator?._id}.jpg`} alt="" className="postUserImage" onError={(e) => { e.target.src = "/userimage/default.jpg" }} />
+                    <img src={`userimage/${creator?._id}.jpg`} alt="" className="postUserImage" onError={(e) => { e.target.src = "/appimage/default.jpg" }} />
                     <span onClick={() => navigate(`profilepage/${creator._id}`)}>{creator?.name}</span>
                 </div>
                 <div>

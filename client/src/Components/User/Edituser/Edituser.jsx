@@ -45,7 +45,7 @@ function EditUserForm(props) {
                                         <Form>
                                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                                 <div className="editUserImageContainer flex-x-y">
-                                                <img src={image ?  image: `userimage/${_id}.jpg`} alt="selected image" className='editUserImage' onError={(e) =>{ e.target.src = "/userimage/default.jpg"}}/>
+                                                <img src={image ?  image: `userimage/${_id}.jpg`} alt="selected image" className='editUserImage' onError={(e) =>{ e.target.src = "/appimage/default.jpg"}}/>
                                                 <div>
                                                  <span>Change Image</span>
                                                 <input type="file" name='newImage' className='fileInput' onChange={onImageChange} accept=".jpg, .jpeg, .png" /> 

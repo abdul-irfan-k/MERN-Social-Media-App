@@ -54,7 +54,7 @@ const Profilecomponent = (props) => {
                 {!isOtherUserProfile && <Settingbox />}
                 <div className="profileDetailBox">
                     <div className="pfofileImageBox">
-                        <img src={isOtherUserProfile ? `/userimage/${otherUserDetail?._id}.jpg` : `/userimage/${userDetails?._id}.jpg`} alt="" onError={(e) => { e.target.src = "/userimage/default.jpg" }} />
+                        <img src={isOtherUserProfile ? `/userimage/${otherUserDetail?._id}.jpg` : `/userimage/${userDetails?._id}.jpg`} alt="" onError={(e) => { e.target.src = "/appimage/default.jpg" }} />
                     </div>
                     <div className="userDetailContainer">
                         <div className="userDetailBox">

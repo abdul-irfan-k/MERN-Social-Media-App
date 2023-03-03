@@ -56,7 +56,7 @@ const Userlistbox = ({ searchResult ,navigate}) => {
     return (<>
         {searchResult.length && searchResult.map((user, id) => {
             return <div className="userlistbox__box" key={id}>
-                <img src={`/userimage/${user._id}.jpg`} alt="" className="userlistbox__box-image" onError={(e) => { e.target.src = "/userimage/default.jpg" }} />
+                <img src={`/userimage/${user._id}.jpg`} alt="" className="userlistbox__box-image" onError={(e) => { e.target.src = "/appimage/default.jpg" }} />
                 <div className="userlistbox__box-content">
                     <span className="userlistbox__box-content-name" onClick={() => navigate(`/profilepage/${user._id}`)}>{user.name}</span>
                     <span className="userlistbox__box-content-email">{user.email}</span>
